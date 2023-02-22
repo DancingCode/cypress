@@ -1,2 +1,2 @@
-import './commands'
-import "cypress-real-events"
+import './commands';
+import "cypress-real-events";
