@@ -1,8 +1,8 @@
 import homePage from "../pageObjects/homePage"
 import '../support/commands';
 
-describe('On completing checkout', () => {
-    it('should present a purchase confirmation page for my order', () => {
+describe('Upon completing checkout', () => {
+    it('should present a purchase confirmation page for an order', () => {
         cy.visit('/')
         cy.setCookiePreferenceAs('Accept All Cookies')
         cy.addProductToCart(homePage.productCard86)
